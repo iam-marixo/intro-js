@@ -1,11 +1,6 @@
-const firstName = prompt('What is your first name?');/*users first name*/
-const lastName = prompt('What is your last name?');/*users last name*/
+var futuredreams = 'I would love to gain the knowledge of javascript to use it in my currect job which is teaching technolgy to high school students within the nonprofit learnsteam + Quiq Labs';
 
-console.log(firstName);/*logs users first name in console*/
+var hobby = 'I really dont have a hobby but I do enjoy helping the communtity I love getting involved into things that can affect the our environment in a good way';
 
-alert (lastName);/*alert for last name*/
-
-const birthday = new Date(prompt('What is your birthday?'));/*asks users for birthday*/
-confirm(`Is your birthday correct: ${birthday}`);/*confirmation for users birthday*/
-
-alert(`You birthday is: ${birthday}`);/*displays users birthday*/
+console.log(futuredreams);
+console.log(hobby);
