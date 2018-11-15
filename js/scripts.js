@@ -1,5 +1,5 @@
-  var firstName = prompt('What is your first name?', 'enter first name');
-  var favColor = prompt(`${firstName}, What is your favorite color out of the colors shown?, colors: purple, green, yellow, blue, orange, pink, white, grey, or black?`);
+  var firstName = prompt('What is your first name?', 'enter first name'). toLowerCase();
+  var favColor = prompt(`${firstName}, What is your favorite color out of the colors shown?, colors: purple, green, yellow, blue, orange, pink, white, grey, or black?`).toLowerCase();
    switch (favColor) {
 
      case 'purple':
